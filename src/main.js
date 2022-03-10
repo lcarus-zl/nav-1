@@ -4,11 +4,10 @@ const x = localStorage.getItem("x");
 const xObject = JSON.parse(x);
 
 const hashMap = xObject || [
-  {
-    logo: "B",
-    url: "https://www.bilibili.com",
-  },
   { logo: "A", url: "https://www.acfun.cn" },
+  { logo: "B", url: "https://www.bilibili.com" },
+  { logo: "W", url: "https://weibo.com" },
+  { logo: "Z", url: "https://www.izuiyou.com/" },
 ];
 
 const removeX = (url) => {

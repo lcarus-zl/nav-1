@@ -1,6 +1,15 @@
 {
+  "scripts": {
+    "build":"rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  },
   "devDependencies": {
     "cssnano": "^5.1.1",
     "postcss": "^8.4.8"
-  }
+  },
+  "name": "nva-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lcarus-zl/nav-1.git",
+  "author": "lcarus-zl <zl351889@163.com>",
+  "license": "MIT"
 }
