@@ -123,11 +123,17 @@ var $lastLi = $siteList.find("li.last");
 var x = localStorage.getItem("x");
 var xObject = JSON.parse(x);
 var hashMap = xObject || [{
+  logo: "A",
+  url: "https://www.acfun.cn"
+}, {
   logo: "B",
   url: "https://www.bilibili.com"
 }, {
-  logo: "A",
-  url: "https://www.acfun.cn"
+  logo: "W",
+  url: "https://weibo.com"
+}, {
+  logo: "Z",
+  url: "https://www.izuiyou.com/"
 }];
 
 var removeX = function removeX(url) {
@@ -180,4 +186,4 @@ $(document).on("keypress", function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.f8909a35.js.map
+//# sourceMappingURL=main.18df4a99.js.map
